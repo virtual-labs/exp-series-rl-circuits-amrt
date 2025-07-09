@@ -1,38 +1,55 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "The power factor in a circuit is unity. Then the impedance of the circuit is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Resistive",
+        "b": "Capacitive",
+        "c": "Inductive",
+        "d": "Partially inductive and partially capacitive"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Unity power factor means phase angle is zero, which happens in purely resistive circuits.",
+        "b": "Incorrect. Capacitive circuits have leading power factor.",
+        "c": "Incorrect. Inductive circuits have lagging power factor.",
+        "d": "Incorrect. Such a circuit would not have unity power factor."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "AC measuring instrument measures",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Average value",
+        "b": "Peak value",
+        "c": "rms value",
+        "d": "Any value"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Average value is not the standard measurable quantity for AC.",
+        "b": "Incorrect. Peak value requires special instruments.",
+        "c": "Correct. Standard AC instruments are calibrated to measure rms value.",
+        "d": "Incorrect. They are designed to show specific values."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The frequency of an ac main in India is",
+      "answers": {
+        "a": "120 Hz",
+        "b": "50 Hz",
+        "c": "110 Hz",
+        "d": "60 Hz"
+      },
+      "explanations": {
+        "a": "Incorrect. 120 Hz is not standard for mains frequency.",
+        "b": "Correct. Standard mains frequency in India is 50 Hz.",
+        "c": "Incorrect. 110 is a voltage level, not frequency.",
+        "d": "Incorrect. 60 Hz is standard in countries like the USA."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

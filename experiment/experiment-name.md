@@ -1,1 +1,1 @@
-## Experiment name
+## Series RL Circuits
