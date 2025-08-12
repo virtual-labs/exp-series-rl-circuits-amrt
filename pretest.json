@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "The power factor in a circuit is unity. Then the impedance of the circuit is?",
+      "answers": {
+        "a": "Resistive",
+        "b": "Capacitive",
+        "c": "Inductive",
+        "d": "Partially inductive and partially capacitive"
+      },
+      "explanations": {
+        "a": "Correct. Unity power factor means phase angle is zero, which happens in purely resistive circuits.",
+        "b": "Incorrect. Capacitive circuits have leading power factor.",
+        "c": "Incorrect. Inductive circuits have lagging power factor.",
+        "d": "Incorrect. Such a circuit would not have unity power factor."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "AC measuring instrument measures",
+      "answers": {
+        "a": "Average value",
+        "b": "Peak value",
+        "c": "rms value",
+        "d": "Any value"
+      },
+      "explanations": {
+        "a": "Incorrect. Average value is not the standard measurable quantity for AC.",
+        "b": "Incorrect. Peak value requires special instruments.",
+        "c": "Correct. Standard AC instruments are calibrated to measure rms value.",
+        "d": "Incorrect. They are designed to show specific values."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The frequency of an ac main in India is",
+      "answers": {
+        "a": "120 Hz",
+        "b": "50 Hz",
+        "c": "110 Hz",
+        "d": "60 Hz"
+      },
+      "explanations": {
+        "a": "Incorrect. 120 Hz is not standard for mains frequency.",
+        "b": "Correct. Standard mains frequency in India is 50 Hz.",
+        "c": "Incorrect. 110 is a voltage level, not frequency.",
+        "d": "Incorrect. 60 Hz is standard in countries like the USA."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Alternating voltage is",
+      "answers": {
+        "a": "Varies directly with time",
+        "b": "Varies sinusoidally",
+        "c": "Varies inversely with time",
+        "d": "Independent of time"
+      },
+      "explanations": {
+        "a": "Incorrect. This applies to linear growth, not AC.",
+        "b": "Correct. AC voltage varies sinusoidally with time.",
+        "c": "Incorrect. This implies decreasing behavior, not sinusoidal.",
+        "d": "Incorrect. AC voltage continuously varies with time."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Inductive reactance of a coil is expressed in?",
+      "answers": {
+        "a": "Ampere",
+        "b": "Ohm",
+        "c": "Volt",
+        "d": "Weber"
+      },
+      "explanations": {
+        "a": "Incorrect. Ampere is a unit of current.",
+        "b": "Correct. Reactance is a type of opposition, like resistance, and is measured in Ohms.",
+        "c": "Incorrect. Volt is a unit of potential difference.",
+        "d": "Incorrect. Weber is a unit of magnetic flux."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sharpness of resonance of a circuit is described by its..................",
+      "answers": {
+        "a": "none of these",
+        "b": "Power factor",
+        "c": "Quality factor",
+        "d": "Form factor"
+      },
+      "explanations": {
+        "a": "Incorrect. A specific quantity defines this.",
+        "b": "Incorrect. Power factor is related to phase angle.",
+        "c": "Correct. The Quality factor (Q-factor) defines the sharpness of resonance.",
+        "d": "Incorrect. Form factor relates to waveform shape."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

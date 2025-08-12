@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+     {
+      "question": "Alternating voltage is",
+      "answers": {
+        "a": "Varies directly with time",
+        "b": "Varies sinusoidally",
+        "c": "Varies inversely with time",
+        "d": "Independent of time"
+      },
+      "explanations": {
+        "a": "Incorrect. This applies to linear growth, not AC.",
+        "b": "Correct. AC voltage varies sinusoidally with time.",
+        "c": "Incorrect. This implies decreasing behavior, not sinusoidal.",
+        "d": "Incorrect. AC voltage continuously varies with time."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Inductive reactance of a coil is expressed in?",
+      "answers": {
+        "a": "Ampere",
+        "b": "Ohm",
+        "c": "Volt",
+        "d": "Weber"
+      },
+      "explanations": {
+        "a": "Incorrect. Ampere is a unit of current.",
+        "b": "Correct. Reactance is a type of opposition, like resistance, and is measured in Ohms.",
+        "c": "Incorrect. Volt is a unit of potential difference.",
+        "d": "Incorrect. Weber is a unit of magnetic flux."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sharpness of resonance of a circuit is described by its..................",
+      "answers": {
+        "a": "none of these",
+        "b": "Power factor",
+        "c": "Quality factor",
+        "d": "Form factor"
+      },
+      "explanations": {
+        "a": "Incorrect. A specific quantity defines this.",
+        "b": "Incorrect. Power factor is related to phase angle.",
+        "c": "Correct. The Quality factor (Q-factor) defines the sharpness of resonance.",
+        "d": "Incorrect. Form factor relates to waveform shape."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
